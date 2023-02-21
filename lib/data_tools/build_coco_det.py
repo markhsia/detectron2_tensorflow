@@ -5,7 +5,7 @@ import contextlib2
 
 import numpy as np
 from PIL import Image
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from pycocotools import mask
 
 from ..data import fields
