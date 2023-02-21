@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from ..utils import tf_utils
 
