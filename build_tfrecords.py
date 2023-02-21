@@ -9,7 +9,7 @@ Example usage:
         --config_file=...
         --opts=FOO,0.5,BAR,1.0
 """
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import logging
 from absl import flags
 
